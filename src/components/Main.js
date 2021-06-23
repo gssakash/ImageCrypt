@@ -39,14 +39,14 @@ class Main extends Component {
                         width='30'
                         height='30'
                         src={`data:image/png;base64,${new Identicon(image.author, 30).toString()}`}
-                        alt='Image'
+                        alt=''
                       />
                       <small className="text-muted">{image.author}</small>
                     </div>
                     <ul id="imageList" className="list-group list-group-flush">
                       <li className="list-group-item">
                         <p class="text-center">
-                        <img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '420px'}}/>
+                        <img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '420px'}} alt=''/>
                         </p>
                         <p>{image.description}</p>
                       </li>
