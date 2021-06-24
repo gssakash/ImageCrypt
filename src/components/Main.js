@@ -10,13 +10,16 @@ class Main extends Component {
           <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '500px' }}>
             <div className="content mr-auto ml-auto">
               <br /> <br /> <br />
-              <h2>Share Image</h2>
+              <h2 className="secondary-header">Share Image</h2>
+              <br />
+
               <form onSubmit={(event) => {
                 event.preventDefault()
                 const description = this.imageDescription.value
                 this.props.uploadImage(description)
               }} >
-                <input type='file' accept=".jpg, .jpeg, .png, .bmp, .gif" onChange={this.props.captureFile} />
+
+                <input type='file' id="choose-file-btn" accept=".jpg, .jpeg, .png, .bmp, .gif" onChange={this.props.captureFile}/>
                   <div className="form-group mr-sm-2">
                     <br></br>
                       <input
@@ -24,10 +27,11 @@ class Main extends Component {
                         type="text"
                         ref={(input) => { this.imageDescription = input }}
                         className="form-control"
-                        placeholder="Image description..."
+                        placeholder="Enter Image Description"
                         required />
                   </div>
-                <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
+                  {/* btn-primary */}
+                <button type="submit" id="upload-btn"  className="btn btn-block btn-lg">Upload Image</button>
               </form>
               {/* <p>&nbsp;</p> */}
               { this.props.images.map((image, key) => {
