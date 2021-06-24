@@ -26,7 +26,7 @@ class App extends Component {
       window.web3 = new Web3(window.web3.currentProvider)
     }
     else {
-      window.alert('Non-Ethereum browser detected. You should consider trying MetaMask!')
+      window.alert('Please Install The Metamask Chrome Extension To Proceed.')
     }
   }
 
@@ -60,7 +60,8 @@ class App extends Component {
 
       this.setState({ loading : false });
     } else {
-      window.alert('Decentragram contract not deployed to detected network.')
+      // window.alert('Decentragram contract not deployed to detected network.')
+      window.alert('Switch to the Ganache Network')
     }
   }
 
