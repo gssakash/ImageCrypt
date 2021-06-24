@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3f8929319ee39f2e9f83",
-    "url": "/ImageCrypt/static/css/main.65b06096.chunk.css"
+    "revision": "1d6a5e45c10303798fc1",
+    "url": "/ImageCrypt/static/css/main.2e234cd3.chunk.css"
   },
   {
-    "revision": "3f8929319ee39f2e9f83",
-    "url": "/ImageCrypt/static/js/main.3f892931.chunk.js"
+    "revision": "1d6a5e45c10303798fc1",
+    "url": "/ImageCrypt/static/js/main.1d6a5e45.chunk.js"
   },
   {
     "revision": "5d2a4bba2db2974eaee6",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ImageCrypt/static/js/runtime~main.c30c6710.js"
   },
   {
-    "revision": "f24b9975dda447580d081c2e529bd2a1",
+    "revision": "9bb381b6921254bf56db723d935555ce",
     "url": "/ImageCrypt/index.html"
   }
 ];
