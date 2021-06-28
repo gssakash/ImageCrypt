@@ -9,7 +9,6 @@ A Decentralized Web 3.0 Application that lets you upload Images and Like the Ima
    <br />
    2.1 Ganache Installation Link : https://www.trufflesuite.com/ganache <br />
    2.2 MetaMask Installation Link : https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
-   <br />
 4. To install the packages do `npm install`.
 5. To run the server, do `npm run start`.
 
