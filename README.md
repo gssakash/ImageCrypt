@@ -1,7 +1,9 @@
 ## ImageCrypt
 
 <!-- # ![pageres](public/lock-fav.PNG) -->
-<div style="text-align:center"><img src="public/lock-fav.PNG" /></div>
+<p align="center">
+  <img src="public/lock-fav.PNG" />
+</p>
 
  <br />
 A Decentralized Web 3.0 Application that lets you upload Images and Like the Images you find attractive by paying in Ethereum.
