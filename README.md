@@ -1,4 +1,6 @@
-## ImageCrypt
+<p align="center" style="font-weight:bold">
+  ImageCrypt
+</p>
 
 <!-- # ![pageres](public/lock-fav.PNG) -->
 <p align="center">
