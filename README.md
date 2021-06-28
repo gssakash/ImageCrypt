@@ -9,6 +9,5 @@ A Decentralized Web 3.0 Application that lets you upload Images and Like the Ima
 <br />
 
 ## Tech Stack
-
 Ganache, Metamask Chrome Extension, Solidity, Javascript, ReactJS.
 
