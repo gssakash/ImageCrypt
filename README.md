@@ -11,7 +11,7 @@
 A Decentralized Web 3.0 Application that lets you upload Images and Like the Images you find attractive by paying in Ethereum.
 <br />  <br />
 
-## Instructions
+## Steps to Run
 
 1. Clone the repository into your local system.
 2. Install the **Ganache Desktop App** from the Official Site and the **MetaMask Chrome Extension** from the Chrome Extension Store
