@@ -8,7 +8,11 @@
 </p>
 
  <br />
-A Decentralized Web 3.0 Application that lets you upload Images and Like the Images you find attractive by paying in Ethereum.
+ 
+<p align="center">
+  A Decentralized Web 3.0 Application that lets you upload Images and Like the Images you find attractive by paying in Ethereum.
+</p>
+ 
 <br />  <br />
 
 ## Steps to Run
